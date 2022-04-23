@@ -14,7 +14,6 @@ static class App {
 	static string FilePath = "D:\\Downloads\\cocomelon.mp4"; 
 	static Size Size = new Size(Console.BufferWidth, Console.BufferHeight);
 	static int BufferFillSize = 60;
-	// static readonly char[] brightness =  "$@B%8&WM#*obmZO0LCU/\\|?-_+~<>i!lI;:,\"^`'.        ".ToCharArray();
 	static readonly string brightness =  " .:-=+*#%@";
 	// static readonly string brightness =  " .:░▒▓█";
 	
@@ -55,7 +54,7 @@ static class App {
 
 					Console.SetCursorPosition(0, 0);
 					Console.WriteLine("Frame buffer count: " + frames.Count);
-					Console.WriteLine("Delta time: " + deltaTime); 
+					Console.WriteLine("Delta time: " + deltaTime);
 					Console.WriteLine("Framerate: " + framerate); 
 				}
 				time1 = time2;
