@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ARIANE\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ARIANE\\.nuget\\packages"
+    ]
+  }
+}
