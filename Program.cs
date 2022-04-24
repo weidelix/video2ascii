@@ -14,11 +14,9 @@ static class App {
 	static string FilePath = "D:\\Downloads\\cocomelon.mp4"; 
 	static Size Size = new Size(Console.BufferWidth, Console.BufferHeight);
 	static int BufferFillSize = 60;
-	static readonly string brightness =  " .:-=+*#%@";
-	// static readonly string brightness =  " .:░▒▓█";
+	static readonly string brightness =  " .:░▒▓█";
 	
 	public static async Task Main() {
-		// Array.Reverse(brightness);
 		FFmpegLoader.FFmpegPath = "D:\\Apps\\ffmpeg\\bin";
 		MediaFile file = MediaFile.Open(FilePath, new MediaOptions { TargetVideoSize = Size });
 
